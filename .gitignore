@@ -1,0 +1,20 @@
+# 勿把解压的 CMake 便携包提交到 GitHub（体积大）
+cmake-*-windows*/
+
+build/
+build-*/
+out/
+.vs/
+.vscode/
+x64/
+Debug/
+Release/
+*.user
+*.suo
+CMakeCache.txt
+CMakeFiles/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
