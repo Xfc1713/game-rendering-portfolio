@@ -15,8 +15,8 @@
 
 ### MiniForwardRenderer（C++ / OpenGL 3.3）
 
-- **仓库**：（填写 GitHub 链接，例如 `https://github.com/你的用户名/game-rendering-portfolio`）
-- **演示**：（填写 B 站或网盘 2 分钟录屏链接）
+- **仓库**：https://github.com/Xfc1713/123（含运行截图与完整源码）
+- **演示**：仓库 README 与 `cpp-foundation/screenshots/`；录屏（可选）待补链接
 - 实现 **Blinn-Phong** 前向光照、**Shadow Map** 阴影贴图、**色调映射**后处理 Pass，窗口标题显示实时 **FPS**
 - 渲染管线：Geometry → Shadow Depth → Lighting → Post；使用 GLFW + 自研 OpenGL 加载器 + CMake 工程化构建
 - 熟悉 MVP、法线矩阵、深度 FBO；能说明 Shadow Bias 与性能瓶颈排查思路

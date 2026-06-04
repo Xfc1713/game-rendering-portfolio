@@ -2,14 +2,23 @@
 
 面向 **游戏渲染开发（校招）** 的 C++ / OpenGL 学习与演示仓库。
 
-## 演示（投递前请补全链接）
+## 演示
+
+### 已运行：C++ 工程化 Demo（cpp-foundation）
+
+![cpp-foundation 运行结果](cpp-foundation/screenshots/run-success.png)
+
+- 本地构建：WinLibs + `scripts/一键编译-复制到Cdev.bat`（见 [docs/绕过VS-完整方案.md](docs/绕过VS-完整方案.md)）
+- 输出含 **Lambert N·L**、**RAII / 智能指针** 等，对应光照与引擎资源管理入门
 
 | 类型 | 链接 |
 |------|------|
-| 录屏（约 2 分钟） | _待填：B 站或网盘 URL_ |
-| 主项目截图 | 见 [MiniForwardRenderer/screenshots/](MiniForwardRenderer/screenshots/) |
+| 录屏（可选） | _待填：B 站或网盘 URL_ |
+| 更多截图 | [cpp-foundation/screenshots/](cpp-foundation/screenshots/) |
 
-**核心展示项目**：[MiniForwardRenderer](MiniForwardRenderer/) — Blinn-Phong + Shadow Map + 色调映射后处理 + FPS。
+### 进行中：OpenGL 主项目
+
+**[MiniForwardRenderer](MiniForwardRenderer/)** — Blinn-Phong + Shadow Map + 后处理（源码在仓库，图形 Demo 待 MSYS2/VS 环境编译）。
 
 > 首次上架 GitHub 请按 [docs/GITHUB-上手指南.md](docs/GITHUB-上手指南.md) 逐步操作。
 
